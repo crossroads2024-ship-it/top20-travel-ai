@@ -1,0 +1,20 @@
+{
+  "name": "Top20 Travel Intelligence AI",
+  "short_name": "Top20 Travel",
+  "description": "AI-powered travel decisions — flights, safety, visa, health and more",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1D4ED8",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Search Destinations", "url": "/search", "description": "Find your top 20" },
+    { "name": "Compare Countries", "url": "/compare", "description": "Side-by-side comparison" },
+    { "name": "Trip Planner", "url": "/planner", "description": "Generate an itinerary" }
+  ]
+}
